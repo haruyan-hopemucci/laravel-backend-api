@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Host: localhost:8000
+Date: Sun, 07 May 2023 14:21:36 GMT, Sun, 07 May 2023 14:21:36 GMT
+Connection: close
+X-Powered-By: PHP/8.2.1
+Cache-Control: no-cache, private
+Content-Type: application/json
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 59
+Access-Control-Allow-Origin: *
+
+{
+  "access_token": "2|LMe0jTSa94D35fwAfSGbI8ZP8cG428wLt1YnEE8O",
+  "token_type": "Bearer"
+}

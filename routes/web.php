@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+/*
+    Sanctum未認証時に/loginへリダイレクトが発生するため、当面の処置として`/`へ飛ばす処理を入れておく
+*/
+
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('login');

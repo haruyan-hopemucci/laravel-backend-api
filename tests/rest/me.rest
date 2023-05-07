@@ -1,0 +1,3 @@
+GET http://localhost:8000/api/me HTTP/1.1
+//Authorization: Bearer 2|LMe0jTSa94D35fwAfSGbI8ZP8cG428wLt1YnEE8O
+
